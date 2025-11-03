@@ -1,3 +1,3 @@
-const API = "https://shopper-website-backend.vercel.app/api";
+const API = "https://shopper-website-backend.vercel.app";
 
 export default API;
