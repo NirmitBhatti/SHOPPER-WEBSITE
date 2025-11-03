@@ -1,0 +1,55 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.Footer-Logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Footer-Logo p {
+    color: #383838;
+    font-size:46px;
+    font-weight: 700;
+}
+.Footer-Links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+}
+.Footer-Links li{
+    cursor:pointer
+
+}
+.Footer-Social-Icon{
+    display: flex;
+    gap: 20px;
+}
+.Footer-Icons-Container {
+    padding: 10px;
+    padding-bottom: 6px;
+    background-color: #fbfbfb;
+    border: 1px solid #ebebeb;
+}
+.Footer-Copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.Footer-Copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background : #c7c7c7 ;
+}
